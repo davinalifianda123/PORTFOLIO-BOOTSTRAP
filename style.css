@@ -1,0 +1,19 @@
+@keyframes upDown {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(16px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+#arrow {
+    animation: upDown 2s infinite;
+}
+
+#more-info:hover {
+    text-shadow: 0 0 3px #0d6efd;
+}

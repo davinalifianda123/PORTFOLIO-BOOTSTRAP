@@ -5,35 +5,54 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Portfolio</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <!-- *NAVBAR -->
-        <nav class="navbar navbar-expand-lg shadow-sm bg-info-subtle">
+        <nav class="navbar navbar-expand-lg shadow-sm bg-primary mb-5">
             <div class="container">
-              <a class="navbar-brand fs-4 fw-bold" href="#">Portfolio</a>
+              <a class="navbar-brand fs-4 fw-bold  text-white" href="#">Portfolio</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active text-white" aria-current="page" href="#home">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link text-white" href="#about">About</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Work</a>
+                    <a class="nav-link text-white" href="#work">Work</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link text-white" href="#contact">Contact</a>
                   </li>
                 </ul>
               </div>
             </div>
           </nav>
         
-        
+        <!-- *HOME -->
+          <div id="home" class="home container pt-lg-5">
+            <div class="row d-flex align-items-center">
+                <div class="col-8">
+                    <h3 class="fw-semibold fs-3 mb-0">Hi, I am</h3>
+                    <h1 class="fw-bold fs-1">Davin Alifianda Adytia</h1>
+                    <p>I am Web Development based in Indonesia</p>
+                    <a class="btn btn-outline-primary rounded-5" href="#">Resume</a>
+                </div>
+                <div class="col-4">
+                    <img src="IMG_20230904_150834.png" alt="photo-profil" class="w-75">
+                </div>
+            </div>
+          </div>
+          <div class="d-flex align-items-center flex-column">
+            <a id="more-info" href="#about" class="text-decoration-none text-dark fw-semibold mt-5">More Info</a>
+            <img id="arrow" class="mt-2" src="down-arrowhead-in-a-circle.png" alt="arrow-icon" style="width: 32px;">
+          </div>
+
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
         <script src="query.js"></script>
         <script src="main.js"></script>

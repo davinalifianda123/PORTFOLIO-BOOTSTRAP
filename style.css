@@ -56,3 +56,8 @@ section::before {
 .about-exp-item-detail {
     display: none;
 }
+
+.btn.btn-dark:active {
+    background-color: black;
+    color: white;
+}

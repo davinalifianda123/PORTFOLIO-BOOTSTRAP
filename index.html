@@ -48,9 +48,8 @@
                 </div>
             </div>
           </div>
-          <div class="d-flex align-items-center flex-column">
-            <a id="more-info" href="#about" class="text-decoration-none text-dark fw-lighter mt-5">More Info</a>
-            <img id="arrow" class="mt-2" src="down-arrowhead-in-a-circle.png" alt="arrow-icon" style="width: 32px;">
+          <div id="swipe" class="d-flex align-items-center flex-column">
+            <a href="#about" class="pt-5"><img id="arrow" class="mt-2" src="down-arrowhead-in-a-circle.png" alt="arrow-icon" style="width: 32px;"></a>
           </div>
         
         <!-- *ABOUT -->
@@ -98,6 +97,72 @@
               Iusto eveniet esse eos dolor alias est, earum recusandae quam error, maiores itaque sit, sapiente in cumque nostrum! Iusto veniam optio saepe ex a! Voluptatibus error sint fugit illo beatae!
               Iste temporibus veniam, voluptas ipsam inventore possimus. Dicta nam quaerat neque sit minima omnis aspernatur provident delectus impedit, illum consectetur porro corrupti facere recusandae voluptatem reprehenderit id odit, necessitatibus culpa.
               Rerum nobis maiores minima mollitia neque, labore eius deleniti natus fuga? Esse blanditiis, vitae recusandae hic atque optio officiis quia porro reiciendis, sapiente deserunt quam! Praesentium ullam assumenda inventore? Quam.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- *WORK  -->
+        <section id="work" class="work container mt-lg-5">
+          <div class="row d-flex align-items-center gap-5">
+            <div class="col">
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis quo labore asperiores ab dignissimos ad in quisquam obcaecati deserunt, quasi nihil dicta veritatis nulla sequi placeat! Fuga corporis neque minus.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos vel eaque aliquid ad ut cupiditate ab fuga? Consectetur placeat eligendi omnis deserunt, voluptatem, aspernatur beatae, eum tenetur facilis sit recusandae!
+                Repellendus, animi! Nam veniam consectetur, in explicabo recusandae assumenda asperiores labore eveniet odit neque fuga magnam. Cum, quisquam sequi ut ad vel, mollitia ea magni sapiente aspernatur nostrum est deserunt?
+              </p>
+            </div>
+            <div class="col work-img">
+              <div id="work-1" class="work-img-item">
+                <img src="f90e21b0-6b4d-4096-9478-604517a79707.jpeg" alt="#">
+              </div>
+              <div id="work-2" class="work-img-item">
+                <img src="download.jpeg" alt="#">
+              </div>
+              <div id="work-3" class="work-img-item">
+                <img src="Why cybercriminals love malware - Professional cyber risk management combined with insurance.jpeg" alt="#">
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- *CONTACT  -->
+        <section id="contact" class="contact container">
+          <div class="row d-flex align-items-center gap-4">
+            <div class="col">
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta animi, quisquam illo odio ipsa harum dolorum officia? Neque explicabo nesciunt expedita harum laboriosam quo accusantium officia, inventore ex aut nulla.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis reprehenderit, eveniet modi animi quasi labore voluptates in iure accusamus tempora! Suscipit voluptate itaque natus officia, nesciunt aspernatur tempore rem recusandae.
+              </p>
+              <div class="row">
+                <div class="col contact-icon d-flex align-items-center gap-1" id="github">
+                  <img src="github.png" alt="#">
+                  <a href="https://github.com/davinalifianda123" class="fw-bold">davinalifianda123</a>
+                </div>
+                <div class="col contact-icon d-flex align-items-center gap-1" id="twitter">
+                  <img src="twitter.png" alt="#">
+                  <a href="https://twitter.com/davin_adytia?t=WStWM04ih5B31iM28StZsw&s=09" class="fw-bold">davin_adytia</a>
+                </div>
+                <div class="col contact-icon d-flex align-items-center gap-1" id="instagram">
+                  <img src="instagram.png" alt="#">
+                  <a href="https://instagram.com/davin_alifiand?igshid=OGQ5ZDc2ODk2ZA==" class="fw-bold">davin_alifianda</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <form class="contact-form" onsubmit="onFormSubmit(event)">
+                <div class="mb-3">
+                  <label for="inp_email" class="form-label fw-medium">Email address</label>
+                  <input type="email" class="form-control" id="inp_email" placeholder="Example: helloworld@gmail.com">
+                </div>
+                <div class="mb-3">
+                  <label for="inp_subject" class="form-label fw-medium">Subject</label>
+                  <input type="text" class="form-control" id="inp_subject" placeholder="Your Subject">
+                </div>
+                <div class="mb-3">
+                  <label for="inp_massage" class="form-label fw-medium">Massage</label>
+                  <textarea class="form-control" id="inp_massage" rows="3" placeholder="Your Massage"></textarea>
+                </div>
+                
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
             </div>
           </div>
         </section>

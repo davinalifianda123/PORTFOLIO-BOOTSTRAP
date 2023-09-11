@@ -10,6 +10,24 @@
     }
 }
 
+@media only screen and (max-width: 768px) {
+    .home img {
+        width: 20%;
+    }
+    #work::before, #about::before, #contact::before {
+        font-size: 3rem;
+    }
+    #work-1:hover::after {
+        font-size: 0.2rem;
+    }
+    .work-img-item:hover {
+        transform: scale(1.1);
+        transition: 1s ease-in-out;
+        z-index: 10;
+    }
+      
+}
+
 .nav-link:hover {
     color: white;
     font-weight: bolder;
@@ -41,7 +59,7 @@ section {
 section::before {
     z-index: -1;
     content: '';
-    font-size: 60px;
+    font-size: 4rem;
     opacity: 0.25;
     position: absolute;
     color: #0d6efd;
@@ -90,26 +108,29 @@ section::before {
 
 #work-1:hover::after {
     content: 'Web Project';
-    padding-top: 100px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: ghostwhite;
-    font-size: 25px;
+    font-size: 1.5rem;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 #work-2:hover::after {
     content: 'Data Scients';
-    padding-top: 100px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: ghostwhite;
-    font-size: 25px;
+    font-size: 1.5rem;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 #work-3:hover::after {
     content: 'Cyber Security';
-    padding-top: 100px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: ghostwhite;
-    font-size: 25px;
+    font-size: 1.5rem;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
